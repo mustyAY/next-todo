@@ -42,7 +42,6 @@ export default function CreateTodo() {
                     })}></textarea>
             </form>
             <button onClick={handleSubmit}>Add Todo</button>
-            <p>{JSON.stringify(todo)}</p>
         </>
     )
 }

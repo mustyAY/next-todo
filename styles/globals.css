@@ -22,7 +22,16 @@
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .listItem:hover{
   background-color: lightblue;
+  cursor: pointer;
+}
+
+button{
   cursor: pointer;
 }
